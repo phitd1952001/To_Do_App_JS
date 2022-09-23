@@ -1,0 +1,92 @@
+.content {
+    padding: 5px;
+    height: 45px;
+    width: 400px;
+    resize: 5px;
+}
+
+.form-control {
+    display: flex;
+}
+
+.form-control button {
+    height: 45px;
+    list-style: 45px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    background: #ccc;
+    color: red;
+    text-align: center;
+    width: 80px;
+    font-weight: bold;
+    /*hover*/
+    cursor: pointer;
+}
+
+.form-control button:hover {
+    background-color: red;
+    color: white;
+}
+
+#list {
+    width: 600px;
+}
+
+#list h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#list ul li {
+    display: flex;
+    background: #f1f1f1;
+    padding: 5px;
+    margin-bottom: 5px;
+    /*nằm sát mép*/
+    justify-self: space-around;
+}
+
+#list ul li div {
+    width: 80%;
+}
+
+#list ul li a {
+    text-decoration: none;
+    display: block;
+    margin-right: 8px;
+    color: #333;
+    display: block;
+    padding: 5px;
+}
+
+
+/* xóa thì nó sẽ có màu đỏ*/
+
+#list ul li a:nth-of-type(2) {
+    background: red;
+    border-radius: 5px;
+    color: white;
+}
+
+#list ul li a:nth-of-type(2):hover {
+    background-color: white;
+    color: red;
+}
+
+#list ul li a:nth-of-type(1) {
+    background: green;
+    border-radius: 5px;
+    color: white;
+}
+
+#list ul li a:nth-of-type(1):hover {
+    background-color: white;
+    color: green;
+}
